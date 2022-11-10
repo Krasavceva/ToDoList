@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <style>
+        body{
+            background-color: rgba(29, 32, 32, 0.849);
+            color: aliceblue;
+        }
+        .done {
+            text-decoration: line-through;
+        }
+        #title{
+            font-size:x-large;
+            margin: 10px auto;
+        }
+        #newTask{
+            margin: 10px auto;
+        }
+        #container{
+            font-size: large;
+            
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header id="title">Мои заметки</header>
+    <div id="container">
+    </div>
+    <input id="newTask"><button onclick="addTask()">Add task</button>
+    <script src="./todo.js"> </script>
+</body>
+
+</html>
